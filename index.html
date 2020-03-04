@@ -1,33 +1,151 @@
-<!--<%@ page contentType="text/html;charset=UTF-8" language="java" %>
--->
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title></title>
-<link type="text/css" href="css/3Dstyle.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> second index </title>
+    <link type="text/css" href="css/3Dstyle.css" rel="stylesheet" />
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <style>
+        #downlunbo{
+            padding-top: 50px;
+        }
+        #taigucang{
+            text-decoration-color: #986a1d;
+        }
+        #3dpicture{
+            padding-left: 20px;
+        }
+    </style>
 </head>
 <body>
-<h1 text-align="center" >Wingshu</h1>
-	<h3>装修我们的第一个家</h3>
-<div class="box"  >
-	<ul class="minbox">
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-	
-	</ul>
-	<ol class="maxbox"> 
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-	</ol>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Wingshu Group</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox" style="background-color: #bfccd6;">
+
+        <div class="item active">
+            <img class="first-slide" src="img/5.png" alt="First slide">
+            <div class="col-md-3 col-md-offset-5 container">
+                <div class="carousel-caption">
+                    <h1><button type="button" class="btn  ">
+                        <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                    </button> <strong id="taigucang">太古仓码头</strong></h1>
+                    <p>Note: 2019.4.13,广东省，广州市-海珠区及荔湾区. 一个充满浪漫，热情，有个性的码头。2-8号仓，2-3号码头，调度楼....</p>
+                    <p><a class="btn btn-lg btn-primary" href="#傻子没有啦" role="button">More</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img class="second-slide" src="img/1.png" alt="Second slide">
+            <div class="col-md-3 col-md-offset-5 container">
+                <div class="carousel-caption">
+                    <h1>广州上下九</h1>
+                    <p>hao多hao多haohao吃e 啊 ，冷冷的冬风，暖暖的心 。第一次吃冰糖草莓，酸甜酸甜的很入味 </p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img class="third-slide" src="img/6.png" alt="Third slide">
+            <div class="col-md-3 col-md-offset-5 container">
+                <div class="carousel-caption">
+                    <h1>儿童乐园</h1>
+                    <p> young！cute！趁年轻，以小孩的身份，自由地玩耍~。~<br>
+                    </p>
+                    <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div><!-- /.carousel -->
+<div class="container" id="downlunbo">
+    <div class="container">
+        <div class="col-xs-12 col-sm-9">
+            <div class="jumbotron " style='opacity:1'>
+                <h1 class="text-center"  >Wingshu</h1>
+                <p >
+                    <i class="fa fa-adjust">我们的故事<br>
+                        回顾现在，展望未来，记录生活的点点滴滴<br>
+                        你晓得镇好看，像美丽的花咿呀...<br></i></p>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas">
+            <div class="jumbotron list-group">
+                <h5><i>目前最喜欢的歌: <strong> 最爱 - 周慧敏</strong></i></h5>
+            </div>
+
+            <div class="jumbotron list-group">
+                <button id = "3dpicture" type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal" >
+                    相册
+                </button>
+                <div class="modal fade" id="myModal"  role="dialog" >
+                    <div class="box"  >
+                        <ul class="minbox">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+
+                        </ul>
+                        <ol class="maxbox">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <hr>
+    <footer>
+        <p>&copy; 广州大学华软软件学院 2020</p>
+    </footer>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

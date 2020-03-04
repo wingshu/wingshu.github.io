@@ -36,7 +36,7 @@ li{
 	width:100px;
 	height:100px;
 	position: absolute;
-	left:50px;
+	left:40px;
 	top:30px;
 	-webkit-transform-style:preserve-3d;
 }
@@ -100,13 +100,13 @@ li{
 	height: 400px;
 	position: absolute;
 	left: 0;
-	top: -20px;
+	top: -20px;                      //大相册相对位置
 	-webkit-transform-style: preserve-3d;
 	
 }
 .maxbox li{
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 	background: #fff;
 	border:1px solid #ccc;
 	position: absolute;
